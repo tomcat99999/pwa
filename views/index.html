@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+#message2{
+display:none;
+}
+body{
+margin:5%;
+background-color:black;
+}
+
+h1{
+color:lime;
+
+}
+input{
+background-color:black;
+color:lime;
+border-color:lime;
+}
+strong{
+color:lime;
+}
+button{
+background-color:black;
+color:lime;
+border-color:lime;
+}
+.vlaknoli:hover strong {
+	text-decoration:underline
+}
+li{
+color:lime;
+width:80%;
+height:30px;
+border:1px solid lime;
+list-style: none;
+}
+span{
+color:lime;
+}
+li button{
+	float:right;
+}
+ul{
+padding:0px;
+}
+#content{
+border:1px solid lime;
+padding:10px;
+width:30%;
+}
+#log input{
+float:right	;
+margin-right:50%;
+}
+
+
+</style>
+<head>
+<meta charset="UTF-8"/>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js' ></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js' ></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js' ></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' ></script>
+
+</head>
+<body>
+<div id="content">
+<div id="header"><h1>Chat</h1></div>
+<div id="chat"></div>
+</div>
+</body>
+<script type="text/babel" src="chat.js"></script>
+</html>
